@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demmo Website</title>
+    <link rel="stylesheet" href="DemoWstyle.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub_header">
+        <nav>
+            <div class="logo">
+                <a href="Demowebsite.html"><img src="GGSIU_logo.svg.png" width="120px"></a>
+            </div>
+            <div class="nav-links" id="nav-link">
+                <i class="fa fa-times" onclick="HideMenu()"></i>
+                <ul class="llist">
+                    <li><a href="Demowebsite.html">HOME</a></li>
+                    <li><a href="about.html.html">ABOUT</a></li>
+                    <li><a href="campus.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Delhi's Biggest University</h1> 
+    </section>
+<section class="aboutusp">
+    <h1>About Us</h1>
+        <div class="aboutus_row">
+           
+            <div class="aboutus_col">
+                <h3> We are Delhi's Biggest University</h3>
+                <p>
+                    The Delhi Skill and Entrepreneurship University (DSEU) was established in August 2020 by the Government of NCT of Delhi to equip students with world-class skill education to enable access to aspirational jobs and inculcate entrepreneurial mindset and entrepreneurship. DSEU aims to create a win-win for the youth and the industry by filling the existing gaps in skill training.
+
+Building on the education philosophy of thinkers such as Mahatma Gandhi and Vinoba Bhave, DSEU aims to integrate the use of the hand, head, and heart for balanced living and engagement in lifelong learning. The focus will be on teaching both self-reliance for life-long independence and the wisdom towards nurturing and valuing interdependence.
+
+The University wishes to change the existing paradigm of skilling, making skill acquisition aspirational and providing opportunities to all for skilling, up-skilling and reskilling. Besides, DSEU will support and nurture entrepreneurs and provide quality mentorship to steer the entrepreneurial journeys of those interested, by providing incubation, and constant support.
+                </p>
+                <i href="" class="more-btn">Explore Now</i>
+            </div>
+            <div class="aboutus_col">
+                <img src="/aboutus_img.jpg">
+            </div>
+        </div>
+</section>
+<!-- -------------------------------------------About us --------------------------------------------->
+<section class="aboutus">
+    <h1>About Us</h1>
+    <p>You can visit our campus and conatct us on the following platforms.</p>
+    <div class="icons">
+             <i class="fa fa-linkedin"></i>
+               <i class="fa fa-instagram"></i>
+               <i class="fa fa-facebook"></i>
+               <i class="fa fa-twitter"></i>
+    </div>
+    <p> Made with  <i class="fa fa-heart-o"></i> by Amandeep Kaur</p>
+    <script>
+        var nav_link = document.getElementById("nav-link");
+        function HideMenu(){
+            nav_link.style.right = "-250px";
+        }
+        function showMenu(){
+            nav_link.style.right = "0";
+        }
+</script>
+</body>
+</html>

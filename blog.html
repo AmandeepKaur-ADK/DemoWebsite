@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demmo Website</title>
+    <link rel="stylesheet" href="DemoWstyle.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub_header">
+        <nav>
+            <div class="logo">
+                <a href="Demowebsite.html"><img src="GGSIU_logo.svg.png" width="120px"></a>
+            </div>
+            <div class="nav-links" id="nav-link">
+                <i class="fa fa-times" onclick="HideMenu()"></i>
+                <ul class="llist">
+                    <li><a href="Demowebsite.html">HOME</a></li>
+                    <li><a href="about.html.html">ABOUT</a></li>
+                    <li><a href="campus.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses and Certificates</h1> 
+    </section>
+<section class="blog">
+    <h1>Our courses</h1>
+    <div class="blog_row">
+        <div class="blog_left">
+            <img src="DSEU_blog_couses.jpeg">
+            <p>Industry experienced faculty as per international standards
+                Experiential pedagogy – learn through practical experiences & live projects
+                Entrepreneurial and job-ready digital and professional skills
+                Active placement & internship support with 60+ industry partners at DSEU
+                Programs at DSEU have been designed to lead to a Degree.
+                All programs are to be offered as Bachelor programs in Arts, Science, Commerce, Business Administration or any of the approved UGC degrees.
+                The programs are on skills required to provide services in various sectors.
+                All the courses are NEP compliant and encompassing the following:
+                All courses will have multiple entry and exit options.
+                An academic credit bank will be created.
+                Each student will have to choose certain credits from the various general programs available to complete their degree.
+                Hands-on, practice-based, internships, and interaction with industry will form up to 70 percent of all programs. The format of the practice will be decided based on the skill course to be offered.
+                Face the World skills: All students will be doing some programs that may be termed as ‘Core’ skills or ‘Face the World’ skills.
+                These programs will be offered across all semesters in all programs.
+                They will include English articulation and composition, digital skills, critical thinking skills, design thinking, people skills, self-awareness, abilities beyond skills (such as negotiations, collaboration etc).
+                Entrepreneurial mindset or Entrepreneurship 101 will be part of all courses.
+                All students will participate in at least two community projects
+                Assessments will be continuous and competency based
+                Programs will be in hybrid mode
+                Learning a foreign language will be an option available to all students
+                </p>
+                <div class="comment_box">
+                    <h3>Leave a Comment</h3>
+                   <form action="" class="comment_form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Enter Comment"></textarea>
+                    <button type="submit" class="red_btn">Post a Comment</button>
+                   </form>
+                </div>
+        </div>
+        <div class="blog_right">
+            <h3>Diploma</h3>
+            <div>
+                <span>Civil Engineering</span>
+                <span>480</span>
+            </div>
+            <div>
+                <span>Computer Engineering</span>
+                <span>600</span>
+            </div>
+            <div>
+                <span> Electronics Engineering</span>
+                <span>660</span>
+            </div>
+            <h3>Graduation</h3>
+            <div>
+                <span>BCA</span>
+                <span>180</span>
+            </div>
+            <div>
+                <span>BBA</span>
+                <span>500</span>
+            </div>
+            <div>
+                <span>B. Com.</span>
+                <span>300</span>
+            </div>
+            <h3>Post-Graduation</h3>
+            <div>
+                <span>MCA</span>
+                <span>60</span>
+            </div>
+            <div>
+                <span>M. Tech.</span>
+                <span>18</span>
+            </div>
+        </div>
+    </div>
+   
+</section>
+<!-- -------------------------------------------About us --------------------------------------------->
+<section class="aboutus">
+    <h1>About Us</h1>
+    <p>You can visit our campus and conatct us on the following platforms.</p>
+    <div class="icons">
+             <i class="fa fa-linkedin"></i>
+               <i class="fa fa-instagram"></i>
+               <i class="fa fa-facebook"></i>
+               <i class="fa fa-twitter"></i>
+    </div>
+    <p> Made with  <i class="fa fa-heart-o"></i> by Amandeep Kaur</p>
+    <script>
+        var nav_link = document.getElementById("nav-link");
+        function HideMenu(){
+            nav_link.style.right = "-250px";
+        }
+        function showMenu(){
+            nav_link.style.right = "0";
+        }
+</script>
+</body>
+</html>

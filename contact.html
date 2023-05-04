@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demmo Website</title>
+    <link rel="stylesheet" href="DemoWstyle.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub_header">
+        <nav>
+            <div class="logo">
+                <a href="Demowebsite.html"><img src="GGSIU_logo.svg.png" width="120px"></a>
+            </div>
+            <div class="nav-links" id="nav-link">
+                <i class="fa fa-times" onclick="HideMenu()"></i>
+                <ul class="llist">
+                    <li><a href="Demowebsite.html">HOME</a></li>
+                    <li><a href="about.html.html">ABOUT</a></li>
+                    <li><a href="campus.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1> 
+    </section>
+    <!-- ---------------------------------------Contact Us---------------------------------------- -->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112115.20161768468!2d76.92243301640625!3d28.5817703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1bcb095244ab%3A0x7a9a6bc778798482!2sDelhi%20Skill%20and%20Entrepreneurship%20University!5e0!3m2!1sen!2sin!4v1656068640806!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="contact_row">
+            <div class="contact_col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Delhi Skill and Entrepreneurship University</h5>
+                        <p>Sector-9, Dwarka, New Delhi- 110077</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>PHONE</h5>
+                        <p>1800-309-3209</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>EMAIL</h5>
+                        <p>helpdesk@dseu.ac.in</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact_col">
+                <form class="comment_form" action="index.php" method="POST" >
+                <input type="text"  placeholder="Enter your Name">
+                <input type="email"  placeholder="Enter your Email">
+                <input type="text"  placeholder="Enter your Subject">
+                <textarea rows="5" placeholder="Enter your Message"></textarea>
+                <button type="submit" class="red_btn">Post Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+<!-- -------------------------------------------About us --------------------------------------------->
+<section class="aboutus">
+    <h1>About Us</h1>
+    <p>You can visit our campus and conatct us on the following platforms.</p>
+    <div class="icons">
+             <i class="fa fa-linkedin"></i>
+               <i class="fa fa-instagram"></i>
+               <i class="fa fa-facebook"></i>
+               <i class="fa fa-twitter"></i>
+    </div>
+    <p> Made with  <i class="fa fa-heart-o"></i> by Amandeep Kaur</p>
+    <script>
+        var nav_link = document.getElementById("nav-link");
+        function HideMenu(){
+            nav_link.style.right = "-250px";
+        }
+        function showMenu(){
+            nav_link.style.right = "0";
+        }
+</script>
+</body>
+</html>
